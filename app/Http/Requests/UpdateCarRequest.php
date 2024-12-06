@@ -11,6 +11,7 @@ class UpdateCarRequest extends FormRequest
      */
     public function authorize(): bool
     {
+        // Deixei "true" por que não temos autenticação no projeto.
         return true;
     }
 
