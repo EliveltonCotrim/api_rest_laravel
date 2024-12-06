@@ -21,3 +21,16 @@ docker run --rm \
 ```shell
 ./sail up -d
 ```
+- Execute o comando abaixo para gerar e configurar a chave da aplicação no arquivo .env:
+```shell
+sail art key:generate
+```
+- Rode as migrations e seeds
+```shell
+sail art migrate --seed
+```
+
+📚 Documentação da API <br>
+A documentação da API está disponível para consulta no seguinte link:
+
+🔗 http://localhost/docs/api
